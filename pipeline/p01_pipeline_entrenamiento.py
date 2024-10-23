@@ -24,16 +24,18 @@ else:
 
 # Info ---------------------------------------- 
 
-print(f"---------------------------------- \nComenzando proceso para periodo: {args.periodo}\n----------------------------------")
+print(f"--------------------------------------- \nComenzando proceso para periodo: {args.periodo}\n---------------------------------------")
 
 # Preproceso ---------------------------------------- 
 
-os.system(f"python{extension_binarios} preprocessing/a01_preproceso.py")
+os.system(f"python{extension_binarios} preprocessing/a00_eda.py")
 
-os.system(f"python{extension_binarios} preprocessing/a02_escalador.py")
+#os.system(f"python{extension_binarios} preprocessing/a01_preproceso.py")
 
-os.system(f"python{extension_binarios} preprocessing/a03_split_train_test.py")
+#os.system(f"python{extension_binarios} preprocessing/a02_escalador.py")
+
+#os.system(f"python{extension_binarios} preprocessing/a03_split_train_test.py")
 
 # Modelo ---------------------------------------- 
 
-os.system(f"python{extension_binarios} models/b01_creacion_de_modelos.py")
+#os.system(f"python{extension_binarios} models/b01_creacion_de_modelos.py")
