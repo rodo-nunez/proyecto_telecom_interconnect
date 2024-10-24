@@ -28,7 +28,7 @@ print(f"--------------------------------------- \nComenzando proceso para period
 
 # Preproceso ---------------------------------------- 
 
-os.system(f"python{extension_binarios} preprocessing/a00_eda.py")
+os.system(f"python{extension_binarios} insight\i01_eda.py")
 
 #os.system(f"python{extension_binarios} preprocessing/a01_preproceso.py")
 
