@@ -13,6 +13,8 @@ class ExploraAnalysis():
     Ejecuta automáticamente todo el EDA con la función 'run_full_analysis'.
     """
     
+    # TODO run_full_analysis no existe. Documentación desactualizada
+    
     def __init__(self, data, dataset_name):
         """
         Inicializa la clase con el dataframe de datos y el nombre del dataset.
